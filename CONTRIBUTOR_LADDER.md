@@ -5,7 +5,6 @@ This document describes the set of roles individuals may have within the communi
 * [Contributor Ladder](#contributor-ladder)
     * [Contributor](#contributor)
     * [Organization Member](#organization-member)
-    * [Reviewer](#reviewer)
     * [Maintainer](#maintainer)
 
 ## Contributor Ladder
@@ -37,7 +36,7 @@ An Organization Member is an established contributor who regularly participates 
 An Organization Member must meet the responsibilities and has the requirements of a Contributor, plus:
 
 * Responsibilities include:
-    * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by Devstats.
+    * Continues to contribute regularly, as demonstrated by having at least 3 GitHub contributions per year, as shown by [devstats](https://devstats.cncf.io/).
 * Requirements:
     * Must have successful contributions to the project, including at least one merged PR.
     * Must be member of the #kgateway channel on the [CNCF Slack](https://slack.cncf.io).
@@ -53,52 +52,28 @@ To apply to become a member of the kgateway-dev organization on GitHub, please o
     - `<user>` with your GitHub username
 1. Add your GitHub username to the list of members (under `orgs.kgateway-dev.members`) in our [organization file](./org.yaml). Please add your name in the correct alphabetical order to maintain a tidy organization file.
 
-### Reviewer
-
-A Reviewer has responsibility for specific code, documentation, test, or other project areas. They are collectively responsible, with other Reviewers, for reviewing all changes to those areas and indicating whether those changes are ready to merge. They have a track record of contribution and review in the project.
-
-Reviewers are responsible for a "specific area." This can be a specific code directory, chapter of the docs, test job, event, or other clearly-defined project component that is smaller than an entire repository or subproject. Most often it is one or a set of directories in one or more Git repositories. The "specific area" below refers to this area of responsibility.
-
-Reviewers have all the rights and responsibilities of an Organization Member, plus:
-
-* Responsibilities include:
-    * Reviewing at least 3 PRs per year
-    * Helping other contributors become reviewers
-* Requirements:
-    * Experience as a Contributor for at least 3 months
-    * Has reviewed, or helped review, at least 20 Pull Requests
-    * Has demonstrated an in-depth knowledge of the specific area
-* Additional privileges:
-    * Has GitHub or CI/CD rights to approve pull requests in specific directories
-    * Can recommend and review other contributors to become Reviewers
-
-The process of becoming a Reviewer is:
-1. The contributor is nominated by opening a PR against the appropriate repository, which adds their GitHub username to the OWNERS file for one or more directories.
-2. At least two members of the team that owns that repository or main directory, who are already maintainers, approve the PR.
-
-
 ### Maintainer
 
 Maintainers are very established contributors who are responsible for the entire project. As such, they have the ability to approve PRs against any area of the repository or repositories they maintain, and are expected to participate in making decisions about the strategy and priorities of the project.
 
-A Maintainer must meet the responsibilities and requirements of a Reviewer, plus:
+A Maintainer must meet the responsibilities and requirements of an Organization Member, plus:
 
 * Responsibilities include:
     * Reviewing at least 3 PRs per year, especially PRs that involve multiple parts of the project
-    * Mentoring new Reviewers
+    * Mentoring other contributors
     * Determining strategy and policy for the project
 * Requirements
-    * Experience as a Reviewer for at least 3 months
-    * Have at least 20 substantial PRs merged to the codebase.
+    * Experience as an Organization Member for at least 3 months
+    * Has reviewed, or helped review, at least 20 Pull Requests
+    * Has at least 20 substantial PRs merged to the codebase
     * Demonstrates a broad knowledge of the project across multiple areas
 * Additional privileges:
-    * Represent the project in public as a Maintainer
-    * Have a vote in Maintainer decision-making discussions
+    * Has GitHub or CI/CD rights to approve pull requests in specific directories
+    * Can recommend and review other contributors to become Maintainers
+    * Represents the project in public as a Maintainer
+    * Has a vote in Maintainer decision-making discussions
     
-Process of becoming a maintainer:
-1. Any current Maintainer may nominate a current Reviewer to become a new Maintainer, by opening a PR against the root of the community repository adding the nominee as an Approver in the OWNERS file.
-2. The nominee will add a comment to the PR testifying that they agree to all requirements of becoming a Maintainer.
-3. At least 2 of the current Maintainers for the part of the project must then approve the PR, along no objections from other maintainers.
+Any current Maintainer may nominate a current Organization Member to become a new Maintainer in one or more repositories, by opening a PR in the community repository using the [maintainer nomination template](.github/PULL_REQUEST_TEMPLATE/nominate_a_maintainer.md). After making sure each item in the template checklist is satisfied, at least 2 current Maintainers from each relevant repository must then approve the PR, along with no objections from other maintainers.
 
 ## Inactivity
 
