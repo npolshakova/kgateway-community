@@ -7,6 +7,7 @@ orgs:
     - jenshu
     - lgadban
     - linsun
+    - npolshakova
     - thelinuxfoundation
     - timflannagan
     - yuval-k
@@ -34,7 +35,6 @@ orgs:
     - MayorFaj
     - Nadine2016
     - nfuden
-    - npolshakova
     - petrmc
     - puertomontt
     - Rachael-Graham
@@ -68,6 +68,7 @@ orgs:
         maintainers:
         - jenshu
         - lgadban
+        - npolshakova
         - timflannagan
         - yuval-k
         members:
@@ -79,7 +80,6 @@ orgs:
         - jahvon
         - jbohanon
         - nfuden
-        - npolshakova
         - puertomontt
         - saiskee
         - sam-heilbron
@@ -131,6 +131,7 @@ orgs:
         - jenshu
         - lgadban
         - linsun
+        - npolshakova
         - thelinuxfoundation
         - timflannagan
         - yuval-k
@@ -158,7 +159,6 @@ orgs:
         - MayorFaj
         - Nadine2016
         - nfuden
-        - npolshakova
         - petrmc
         - puertomontt
         - Rachael-Graham

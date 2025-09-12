@@ -15,6 +15,7 @@ readonly org_admins=(
   ilrudie
   jenshu
   linsun
+  npolshakova
   yuval-k
 )
 
