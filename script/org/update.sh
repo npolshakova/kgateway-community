@@ -15,8 +15,8 @@ readonly org_admins=(
   ilrudie
   jenshu
   linsun
-  yuval-k
   npolshakova
+  yuval-k
 )
 
 cd "${REPO_ROOT}"
