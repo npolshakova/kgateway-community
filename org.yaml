@@ -7,10 +7,10 @@ orgs:
     - jenshu
     - lgadban
     - linsun
+    - npolshakova
     - thelinuxfoundation
     - timflannagan
     - yuval-k
-    - npolshakova
     members:
     - arianaw66
     - artberger
@@ -68,9 +68,9 @@ orgs:
         maintainers:
         - jenshu
         - lgadban
+        - npolshakova
         - timflannagan
         - yuval-k
-        - npolshakova
         members:
         - ashleywang1
         - danehans
@@ -131,10 +131,10 @@ orgs:
         - jenshu
         - lgadban
         - linsun
+        - npolshakova
         - thelinuxfoundation
         - timflannagan
         - yuval-k
-        - npolshakova
         members:
         - arianaw66
         - artberger
