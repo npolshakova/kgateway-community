@@ -12,11 +12,15 @@ orgs:
     - timflannagan
     - yuval-k
     members:
+    - alexliu541
+    - andy-fong
     - arianaw66
     - artberger
+    - aryanparashar24
     - ashleywang1
     - chandler-solo
     - christian-posta
+    - corsairier
     - craigbox
     - danehans
     - davidjumani
@@ -38,6 +42,7 @@ orgs:
     - petrmc
     - puertomontt
     - Rachael-Graham
+    - rpunia1
     - saiskee
     - sam-heilbron
     - shashankram
@@ -56,6 +61,7 @@ orgs:
         - ilrudie
         - jenshu
         - linsun
+        - npolshakova
         members:
         - christian-posta
         - craigbox
@@ -81,6 +87,7 @@ orgs:
         - jahvon
         - jbohanon
         - nfuden
+        - petrmc
         - puertomontt
         - saiskee
         - sam-heilbron
@@ -89,6 +96,7 @@ orgs:
         - Sodman
         - stevenctl
         - tjons
+        - ymesika
         privacy: closed
         repos:
           kgateway: maintain
@@ -137,11 +145,15 @@ orgs:
         - timflannagan
         - yuval-k
         members:
+        - alexliu541
+        - andy-fong
         - arianaw66
         - artberger
+        - aryanparashar24
         - ashleywang1
         - chandler-solo
         - christian-posta
+        - corsairier
         - craigbox
         - danehans
         - davidjumani
@@ -163,6 +175,7 @@ orgs:
         - petrmc
         - puertomontt
         - Rachael-Graham
+        - rpunia1
         - saiskee
         - sam-heilbron
         - shashankram
